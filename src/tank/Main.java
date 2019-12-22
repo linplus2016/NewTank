@@ -1,0 +1,1 @@
+package tank;public class Main {    public static void main(String[] arg) throws Exception {        TankFrame tf = new TankFrame(); //主方法，把入口打开即可        while(true){            Thread.sleep(50);            tf.repaint();        }    }}
